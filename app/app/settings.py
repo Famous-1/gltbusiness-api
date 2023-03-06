@@ -137,3 +137,8 @@ AUTH_USER_MODEL = 'core.User'
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '67c12938905fbb'
+EMAIL_HOST_PASSWORD = 'c56116df0cd1ea'
+EMAIL_PORT = '2525'
