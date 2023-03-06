@@ -28,7 +28,7 @@ class PublicUserApiTests(TestCase):
         payload = {
             'email': 'test@example.com',
             'password': 'testpass234',
-            'name': 'Test User'
+            'name': 'Test User',
         }
         res = self.client.post(CREATE_USER_URL, payload)
 
@@ -42,7 +42,7 @@ class PublicUserApiTests(TestCase):
         payload = {
             'email': 'test@example.com',
             'password': 'testpass123',
-            'name': 'Test User'
+            'name': 'Test User',
         }
         create_user(**payload)
         res = self.client.post(CREATE_USER_URL, payload)
@@ -54,7 +54,7 @@ class PublicUserApiTests(TestCase):
         payload = {
             'email': 'test@example.com',
             'password': 'tw',
-            'name': 'Test User'
+            'name': 'Test User',
         }
         res = self.client.post(CREATE_USER_URL, payload)
 
