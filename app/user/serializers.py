@@ -6,7 +6,7 @@ from django.contrib.auth import get_user_model
 from rest_framework import serializers
 
 
-class UserSerialzier(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
     """Serialzier for the user object."""
 
     class Meta:
