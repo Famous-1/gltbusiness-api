@@ -3,3 +3,4 @@ djangorestframework>=3.12.4,<3.13
 psycopg2>=2.8.6,<2.9
 phonenumbers>=8.12.8,<8.13.0
 django-phonenumber-field>=5.0.0,<5.1.0
+drf-spectacular>=0.15.1,<0.16
